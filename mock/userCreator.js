@@ -8,7 +8,6 @@ User.remove({}, function (err, user) {
 });
 
 function insertMockData() {
-    console.log('userMock: ' + userMock[1]);
 
     User.collection.insert(userMock, function(err, user) {
         if (err) console.log(err);

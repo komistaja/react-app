@@ -31,7 +31,7 @@ const mockUsers = [
     },
     {
         nimi: "Kuulas Uulikki",
-        email: "tom@tom.com",
+        email: "uulas@kullikki.com",
         phone: "093472230"
     },
     {
@@ -99,6 +99,6 @@ const mockUsers = [
         email: "olisipa@nimikanta.com",
         phone: "02925822"
     }
-]
+];
 
 module.exports = mockUsers;
